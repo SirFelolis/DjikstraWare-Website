@@ -1,15 +1,25 @@
 <html>
-  <header>
-    <link rel="stylesheet" type="text/css" href="index.css">
-  </header>
-  <body>
-    <h1>DijkstraWare</h1>
-    <h3>Main page</h3>
+<header>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</header>
 
-    <a href="index.html"><img src="images/bob_face.gif", width="120px"/></a>
+<body>
+	<h1>DIJKSTRAWARE</h1>
+	<h3>main page</h3>
 
-    <div id="nav">
-      <a href="games/games.html">Games</a>
-    </div>
-  </body>
+	<a href="index.html">
+		<img src="images/bob_face.gif" , width="120px" />
+	</a>
+
+	<div id="nav-placeholder">
+	</div>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$("#nav-placeholder").load("nav.html");
+		});
+	</script>
+</body>
+
 </html>
