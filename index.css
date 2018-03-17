@@ -6,7 +6,11 @@ body {
 
     text-align: center;
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Fira Mono";
+}
+
+h1 {
+    font-family: 'Monofett';
 }
 
 #nav {
