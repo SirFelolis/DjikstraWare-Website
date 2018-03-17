@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 body {
     background-color: #ff89ff;
 
@@ -6,11 +8,8 @@ body {
 
     text-align: center;
 
-    font-family: "Fira Mono";
-}
-
-h1 {
-    font-family: 'Monofett';
+    font-family: "VT232", monospace;
+    font-size: 22px;
 }
 
 #nav {
