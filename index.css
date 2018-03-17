@@ -11,7 +11,11 @@ body {
     font-family: "VT232", monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 #nav {
