@@ -1,9 +1,19 @@
 body {
-    background-color: violet;
+    background-color: #ff89ff;
 
     max-width: 800px;
     margin: 0 auto;
 
     text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nav {
+    background-color: #e6e64e;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
