@@ -9,6 +9,8 @@ body {
     text-align: center;
 
     font-family: "VT232", monospace;
+    font-style: normal;
+    font-weight: 400;
     font-size: 22px;
 }
 
