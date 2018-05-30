@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
 
 body {
-    background-color: #ff89ff;
+    background-color: #e537e0;
 
     max-width: 800px;
     margin: 0 auto;
 
     text-align: center;
 
-    font-family: "VT232", monospace;
+    font-family: "VT323", monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 h1 {
@@ -25,6 +25,8 @@ ul {
 }
 
 li {
+    font-weight: bold;
+
     display: inline;
     margin-left: 10px;
 }
@@ -34,12 +36,46 @@ a {
     color: black;
 }
 
-a:hover {
-    background-color: #d1d140;
+@keyframes link_hover {
+    from {
+        color: black; 
+        font-size: 22px;
+    }
+    to {
+        color: white;
+        font-size: 25px;
+    }
 }
 
-a:visited {
-    color: grey;
+a:hover {
+    background-color: #d1d140;
+    font-weight: 400;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+    animation-name: link_hover;
+    animation-duration: 200ms;
+    font-size: 25px;
+}
+
+@keyframes logo_pulse {
+    0% {
+        -webkit-transform: scale(1, 1) rotate(3deg);
+    }
+    50% {
+        -webkit-transform: scale(1.2, 1.2) rotate(-3deg);
+    }
+    100% {
+        -webkit-transform: scale(1, 1) rotate(3deg);
+    }
+}
+
+#logo {
+    animation: logo_pulse 10s infinite;
 }
 
 nav {
